@@ -1,0 +1,30 @@
+.navTop{
+    margin-left: 60px;
+    width: calc(100vw - 120px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background:transparent;
+    
+    position: fixed;
+    z-index: 999;
+}
+.navTopTransition{
+    background-color: rgba(0,0,0, 0.4); 
+    backdrop-filter: blur(6px);
+}
+.navTop ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #a09d9d;
+    cursor: pointer;
+}
+.navTop ul li{
+   margin: 0 20px 0 0;
+   font-size: 30px;
+}
+.navTop ul a:link,.navTop ul a:visited{
+    color: #a09d9d;
+}
