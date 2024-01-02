@@ -17,12 +17,12 @@ export default function About() {
               looking for oppertunity in react development.
             </p>
             <p>
-              I'm also a Youtuber who loves to create content on frontend
-              development apart from these I also love to sketch, watch kdrama
-              and play valorant.{" "}
+              I'm also starting a blog website where I'll be doing articles on
+              frontend development apart from these I also love to sketch and
+              play valorant.{" "}
             </p>
             <p>
-              If you think you've got an opening that i might like let's
+              If you think you've got an opening that I might like let's
               connent.
             </p>
             <p>
