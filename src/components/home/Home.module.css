@@ -2,6 +2,7 @@
   color: #fff;
   width: calc(100vw - 60px);
   max-height: 80rem;
+  height: 100vh;
   margin-bottom: 2rem;
 }
 .content {
@@ -32,9 +33,6 @@
   }
 }
 @media screen and (max-width: 515px) {
-  .home {
-    /* padding: 0 20%; */
-  }
   .content h1 {
     font-size: 50px;
   }

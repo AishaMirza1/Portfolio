@@ -3,7 +3,7 @@ import Reveal from "../Reveal";
 export default function Contact() {
   return (
     <section id="contact" className={styles.contact}>
-      <div>
+      <div className={styles.content}>
         <Reveal>
           <h1>
             Contact<span style={{ color: "#ff3c78" }}>.</span>

@@ -1,68 +1,16 @@
 .projects {
   background-color: rgb(24, 23, 23);
-  text-align: center;
-  text-align: right;
   width: calc(100vw - 60px);
+}
+.content {
+  padding: 0 0 100px 6%;
 }
 .projects h1 {
   color: #fff;
   font-size: 40px;
-  position: relative;
-  margin-right: 300px;
-}
-.projects h1::before {
-  content: "";
-  display: block;
-  width: 55%;
-  height: 1.5px;
-  background-color: #666363;
-  position: absolute;
-  right: 17%;
-  top: 50%;
 }
 .projectsCardContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
-  padding: 0 10% 0 16%;
-}
-
-@media screen and (max-width: 1400px) {
-  .projectsCardContainer {
-    padding: 0 5% 0 8%;
-  }
-}
-@media screen and (max-width: 1190px) {
-  .projectsCardContainer {
-    gap: 5px;
-    padding: 0 3% 0 5%;
-  }
-  .projectsCardContainer {
-    flex-wrap: wrap;
-    padding: 0 10% 0 13%;
-  }
-}
-@media screen and (max-width: 1105px) {
-  .projectsCardContainer {
-    gap: 5px;
-    padding: 0 2% 0 5%;
-  }
-  .projectsCardContainer {
-    gap: 20px;
-    padding: 0 10% 0 10%;
-  }
-}
-@media screen and (max-width: 990px) {
-  .projectsCardContainer {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 690px) {
-  .projects h1 {
-    margin-right: 100px;
-    padding: 0 40px;
-  }
 }
