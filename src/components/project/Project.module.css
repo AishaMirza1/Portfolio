@@ -1,16 +1,28 @@
 .projects {
-  background-color: rgb(24, 23, 23);
   width: calc(100vw - 60px);
 }
 .content {
-  padding: 0 0 100px 6%;
+  padding: 0 0 0 6%;
 }
 .projects h1 {
   color: #fff;
   font-size: 40px;
+  margin-bottom: 3rem;
 }
-.projectsCardContainer {
+.horizontalScrollSection {
+  height: 300vh !important;
+  position: relative;
+}
+.projectCardsContainer {
+  margin-block: 3rem;
+  position: sticky;
+  top: 86px;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
+  overflow-x: clip;
+}
+.ProjectCardInnerContainer {
+  display: flex;
+  gap: 2rem;
 }

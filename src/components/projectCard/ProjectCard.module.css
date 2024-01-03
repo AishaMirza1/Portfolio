@@ -13,7 +13,7 @@
   width: 4rem;
 }
 .cardContainer:hover {
-  background-color: #ffb1c9;
+  background-color: #ffd8e4;
 }
 .cardInfoContainer {
   overflow-y: hidden;
@@ -28,4 +28,14 @@
 }
 .cardInfo {
   font: 0.9rem;
+}
+@media (max-width: 418px) {
+  .cardContainer {
+    min-width: 17rem;
+  }
+}
+@media (max-width: 347px) {
+  .cardContainer {
+    min-width: 14rem;
+  }
 }
