@@ -25,15 +25,6 @@ export default function About() {
               If you think you've got an opening that I might like let's
               connent.
             </p>
-            <p>
-              <span>My Links&rarr;</span>
-              <span>
-                <ion-icon name="logo-github"></ion-icon>
-              </span>
-              <span>
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </span>
-            </p>
           </div>
 
           <div className={styles.tag}>

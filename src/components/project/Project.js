@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 export default function Project() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["5%", "-75%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["5%", "-83.5%"]);
   console.log(scrollYProgress);
   return (
     <section id="projects" className={styles.projects}>

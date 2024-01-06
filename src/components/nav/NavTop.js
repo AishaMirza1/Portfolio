@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import Button from "../button/Button";
 import styles from "./NavTop.module.css";
@@ -19,12 +20,12 @@ export default function NavTop() {
       <ul>
         <li>
           <a href="https://github.com/AishaMirza1" target="blank">
-            <ion-icon name="logo-github"></ion-icon>
+            <FaGithub />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/aisha-mirza/" target="blank">
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <FaLinkedin />
           </a>
         </li>
       </ul>
