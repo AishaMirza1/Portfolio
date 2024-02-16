@@ -21,6 +21,7 @@ section {
 a:link,
 a:visited {
   text-decoration: none;
+  color: #a09d9d;
 }
 #projects {
   height: fit-content;
